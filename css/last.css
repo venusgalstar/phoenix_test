@@ -32,6 +32,15 @@ a {
 
 
 
+.c-green.connected-account-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c89656;
+}
+
+.connected-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
 
 .header {
     height: 80px;
@@ -93,6 +102,7 @@ a {
     justify-content: center;
     cursor: pointer;
 }
+
 .lifetime-title button.action-btn.btn.mobile-hidden {
     display: inline-block;
     padding: 0 24px;
@@ -104,11 +114,13 @@ a {
     letter-spacing: 2px;
     text-transform: capitalize;
 }
+
 .lifetime-title button.action-btn.btn.mobile-hidden:hover {
     background-color: #202225;
     color: white;
     border-color: #202225;
 }
+
 .action-btn:hover {
     color: white;
     box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.9);
@@ -173,6 +185,7 @@ a {
 .title-main {
     font-size: 60px;
 }
+
 .title-sub {
     font-size: 40px;
 }
@@ -184,20 +197,27 @@ a {
     background-position: top;
     background-size: 2000px 1000px;
 }
+
 #section-msg .mainStats .fs-22.c-w {
     text-transform: uppercase;
 }
+
 #section-msg .fs-22 {
     font-size: 28px;
 }
+
 #section-msg .mainBuy button {
     font-size: 26px;
     font-weight: bold;
+    padding-left: 0;
+    padding-right: 0;
 }
+
 #section-msg .mainBuy button:hover {
     background: #202225;
     border-color: #202225;
 }
+
 #section-msg>.content {
     height: 810px;
     width: 1150px;
@@ -223,7 +243,12 @@ a {
     flex: 1;
     margin-left: 2.6%;
 }
- 
+
+.dashbSmall {
+    color: #979797 !important;
+    font-size: 22px !important;
+}
+
 .msg-left-content-container {
     display: flex;
     justify-content: space-around;
@@ -248,6 +273,11 @@ a {
 }
 
 
+.bond_panel {
+    width: 600px;
+    background-color: #2f3136 !important;
+}
+
 #section-nests {
     height: 900px;
     /* background-color: #000000; */
@@ -257,6 +287,7 @@ a {
     /* background-size: contain; */
 
 }
+
 #section-nest button.btn.action-btn {
     font-size: 30px;
     height: 50px !important;
@@ -264,15 +295,18 @@ a {
     border-radius: 25px;
     margin-top: 35px;
 }
+
 #section-nest button.btn.action-btn:hover {
     background-color: #202225;
     color: white;
     border-color: #202225;
 }
+
 #section-nests>.content {
     height: 900px;
     width: 1150px;
 }
+
 #section-nests button.btn.action-btn {
     display: inline-block;
     padding: 0 24px;
@@ -282,10 +316,12 @@ a {
     font-size: 28px;
     text-transform: capitalize;
 }
+
 #section-nests button.btn.action-btn:hover {
     background: #202225;
     border-color: #202225;
 }
+
 .chart-text {
     margin-top: 20px;
     display: flex;
@@ -294,11 +330,13 @@ a {
     width: 100%;
     font-size: 24px;
 }
+
 .header a#launch_btn {
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 2px;
 }
+
 .header a#launch_btn:hover {
     background: #202225;
     border-color: #202225;
@@ -311,8 +349,8 @@ a {
     justify-content: space-between;
     height: 140px;
     align-items: center;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 
@@ -336,6 +374,30 @@ a {
     border-color: #949596;
 }
 
+/* tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /* If you want dots under the hoverable text */
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    width: 239px;
+    padding: 20px !important;
+    width: 200px !important;
+    margin-left: -100px !important;
+    font-size: 18px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 .tab-content {
     height: 600px;
     background-color: #949596;
@@ -351,14 +413,28 @@ a {
     background-position: center;
     background-size: cover;
 }
+
+#section-hero .title h1 {
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.headTwo {
+    color: white;
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
 .createNestBtn:hover {
     background: #c89656;
     border-color: #c89656;
 }
+
 .buyFireBtn:hover {
     background: #202225;
     border-color: #202225;
 }
+
 #section-hero>.content {
     height: 740px;
     max-width: 1150px;
@@ -384,10 +460,12 @@ a {
 .title-sub {
     color: white;
 }
+
 .hero-left .title-sub {
     line-height: 50px;
     font-size: 47px;
 }
+
 .title-sub1 {
     display: none;
 }
@@ -404,10 +482,12 @@ a {
     align-items: center;
     flex-direction: column;
 }
+
 .hero-right .fs-30 {
     font-size: 34px;
     letter-spacing: 1px;
 }
+
 .phoenix_img {
     background-size: cover;
     background-image: url(/img/phoenix.png);
@@ -544,19 +624,21 @@ a {
 
 #section-nft {
     background-color: white;
-    height: 900px;
+    height: auto;
     background-image: url(/img/marble-bg.jpg);
     background-position: center;
     background-size: cover;
+    padding-bottom: 120px;
 }
 
 #section-nft>.content {
     padding-top: 120px;
-    width: 1150px;
-    height: 900px;
+    max-width: 1150px;
+    height: auto;
     display: flex;
     justify-content: space-between;
 }
+
 #section-nft .action-btn.btn.fs-28.m-t-30.mx-auto {
     margin-left: 0 !important;
     display: inline-block;
@@ -568,10 +650,81 @@ a {
     letter-spacing: 2px;
     text-transform: capitalize;
 }
+
 #section-nft .action-btn.btn.fs-28.m-t-30.mx-auto:hover {
     background-color: #202225;
     color: white;
     border-color: #202225;
+}
+
+.card-img.masterNFT {
+    background: url(/img/nft-master.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-img.grandNFT {
+    background: url(/img/nft-grand.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#needToKnow {
+    background-color: #202225;
+    height: auto;
+    background-image: url(/img/toKnowBg.jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+#needToKnow>.content {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    max-width: 1150px;
+    height: auto;
+}
+
+#needToKnow h2.headTwo {
+    margin-bottom: 65px;
+}
+
+p.needPar {
+    background: #0000008f;
+    color: white;
+    padding: 20px 20px 20px 40px;
+    border-left: 5px solid #c89656;
+    margin-bottom: 40px;
+    font-size: 28px;
+    max-width: 730px;
+}
+
+.needToBtn {
+    height: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #c89656;
+    color: white;
+    border-color: #c89656;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+    letter-spacing: 2px;
+}
+
+.needToBtn:hover {
+    background-color: #202225;
+    color: white;
+    border-color: #202225;
+    box-shadow: 0px 4px 12px rgb(255 255 255 / 90%);
 }
 
 #section-app-nft {
@@ -583,10 +736,12 @@ a {
     width: 1150px;
     height: auto;
 }
+
 span.connectWallet {
     font-size: 20px;
     letter-spacing: 2px;
 }
+
 .connectWalletBtn:hover {
     background: #202225;
     border-color: #202225;
@@ -690,11 +845,13 @@ span.connectWallet {
     font-family: Open Sans, Helvetica, sans-serif;
     font-weight: 600;
 }
+
 span.phxColor {
     font-weight: bold;
     color: #c89656;
     font-family: 'Open Sans';
 }
+
 .card-action a {
     text-decoration: none;
     flex-shrink: 0;
@@ -813,36 +970,53 @@ span.phxColor {
 
 
 #section-faq {
-    background-color: #031420;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    background-color: white;
+    height: auto;
+    background-image: url(/img/marble-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+}
+
+#section-faq>.content {
+    padding-top: 120px;
+    max-width: 1150px;
+    height: auto;
+    justify-content: space-between;
+}
+
+#section-faq .headTwoBl {
+    color: #202225;
+}
+
+.faqLeft, .faqRight {
+    width: 45%;
 }
 
 #faq-content {
-    width: 950px;
+    max-width: 1150px;
     margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .accordion {
-    background-color: #031420;
+    background-color: #2f3136;
     cursor: pointer;
-    padding: 18px;
+    padding: 20px 20px 20px 30px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
     transition: 0.4s;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 30px;
+    line-height: 34px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 70px;
-    color: #cbd5e0;
+    color: #ffffff;
+    margin-bottom: 50px;
 }
 
 .accordion::after {
@@ -859,9 +1033,9 @@ span.phxColor {
 
 .active,
 .accordion:hover, .accordion:focus {
-    color: #f58357;
-    border-bottom: solid 1px black;
-    background-color: #0a273b;
+    color: #c89656;
+    border-bottom: none;
+    background-color: #303338;
 }
 
 .accordion.active::after {
@@ -869,11 +1043,28 @@ span.phxColor {
 }
 
 .panel {
-    padding: 0 18px;
+    padding: 30px;
+    font-size: 25px;
     display: none;
-    background-color: #0a273b;
+    background-color: #202225;
     overflow: hidden;
     color: #fff;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.panel a {
+    color: #c89656;
+    text-decoration: underline !important;
+}
+
+.panel b.contract {
+    word-break: break-all;
+    font-size: 20px;
+}
+
+span.faqQw {
+    max-width: 80%;
 }
 
 .accordion.active+.panel {
@@ -900,9 +1091,11 @@ span.phxColor {
     width: 10vw;
     text-align: center;
 }
+
 .footerSocial a {
     color: white;
 }
+
 .footer-bottom {
     height: 60px;
     display: flex;
@@ -914,24 +1107,29 @@ span.phxColor {
 footer {
     padding-top: 60px;
     padding-bottom: 25px;
-    background-color: black;
+    background-color: #2f3136;
 }
+
 footer .c-gray {
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
+
 footer .c-gray:hover {
-    color:#c89656;
+    color: #c89656;
 }
+
 .contractHolder, .contractHolder a {
     color: white;
     font-size: 23px;
     padding: 7px 20px;
     font-family: Open Sans, Helvetica, sans-serif;
 }
+
 .contractHolder {
     text-align: right;
     word-break: break-all;
 }
+
 .contractHolder a {
     background: #c89656;
 }
@@ -959,12 +1157,12 @@ footer .c-gray:hover {
     font-size: 14px;
     line-height: 14px;
     letter-spacing: .1em;
-    color: #718096;
+    color: #FFF;
     margin-top: 5px
 }
 
 .connected-account-text, .connected-text {
-    font-family: Ubuntu Mono;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     text-align: right
@@ -1073,7 +1271,7 @@ footer .c-gray:hover {
     text-align: center;
     justify-content: center;
     cursor: pointer;
-    color: #e2e8f0;
+    color: #ffffff;
 
 }
 
@@ -1093,9 +1291,11 @@ footer .c-gray:hover {
 .nest-list-even .pay-button {
     background-color: #dda966;
 }
+
 .nest-list-even .claim-button {
     background-color: #35373a;
 }
+
 .nftBtnNum {
     padding: 0 24px;
     border-radius: 50px;
@@ -1109,6 +1309,18 @@ footer .c-gray:hover {
     max-width: 200px;
     text-align: center;
 }
+
+.nftsInTab .card-img {
+    width: 100% !important;
+    height: auto;
+    min-height: 300px;
+}
+
+.nftsInTab .card+.card {
+    margin-top: 0;
+    margin-left: 4%;
+}
+
 /* .nest-list-odd>.claim-button {
     background-color: #2f3136;
 }
@@ -1251,6 +1463,21 @@ footer .c-gray:hover {
     justify-content: center;
 }
 
+.headTwoAu {
+    font-size: 66px;
+    color: #955402;
+    height: 214px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.headTwoBl {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 1.1;
+}
 
 .vision-container {
     display: flex;
@@ -1287,10 +1514,12 @@ footer .c-gray:hover {
     margin-right: auto;
     margin-left: auto;
 }
+
 .chip i {
     margin-right: 30px;
     margin-left: 10px;
 }
+
 #chips-header {
     color: white;
     font-size: 40px;
@@ -1329,10 +1558,12 @@ footer .c-gray:hover {
     display: flex;
     justify-content: center;
 }
+
 span.copy-right {
     color: #505050;
     font-family: Open Sans, Helvetica, sans-serif;
 }
+
 .footer-privacy {
     display: none;
 }
@@ -1432,9 +1663,11 @@ span.copy-right {
     color: white;
     text-decoration: none;
 }
+
 .menu>a:hover {
     color: #c89656 !important;
 }
+
 #launch_sm_connect_btn {
     display: none;
 }
@@ -1582,5 +1815,61 @@ span.copy-right {
 }
 
 .mobile-visible-false {
-    visibility:visible;
+    visibility: visible;
+}
+
+
+
+
+
+#section-bond {
+    background-image: url(/img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 2000px 1000px;
+}
+
+#section-bond>.content {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+#section-bond .mainStats .fs-22.c-w {
+    text-transform: uppercase;
+}
+
+#section-bond .fs-22 {
+    font-size: 28px;
+}
+
+.bond-panel {
+    width: 500px
+}
+
+
+#section-bond>.content {
+    height: 810px;
+    width: 1150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.bond-input, .bond-input:active, .bond-input:focus {
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0px;
+    padding-left: 20px;
+    text-align: center;
+    width: 80%;
+    color: white;
+    box-shadow: none;
+}
+
+.setting-panel {
+    display: flex;
+    flex-direction: row;
 }
