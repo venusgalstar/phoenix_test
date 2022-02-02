@@ -96,12 +96,10 @@
     .title-main {
         font-size: 36px;
     }
-
     #section-hero .title h1 {
         font-weight: 900;
         font-size: 48px;
     }
-
     .title-sub {
         font-size: 26px;
         color: #ffcc99;
@@ -271,9 +269,8 @@
     } */
 
     .nft-right {
-        margin-top: 100px;
+        margin-top:100px;
     }
-
     .buy_nft_btn {
         font-size: 3vw;
     }
@@ -317,7 +314,6 @@
     #section-started {
         width: 100%;
     }
-
     #started-content button.action-btn.btn.mobile-show.m-t-40 {
         width: 200px;
         padding: 0 24px;
@@ -420,7 +416,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-bottom:100px;
     }
 
     #vision-content {
@@ -451,16 +447,13 @@
         font-size: 33px;
         font-weight: 900;
     }
-
     .hero-left .title-main {
         font-size: 43px;
         margin-top: 50px;
     }
-
     .hero-left .title-sub {
         font-size: 30px;
     }
-
     .try_btn_container {
         display: flex;
         justify-content: center;
@@ -690,11 +683,9 @@
         align-items: flex-start;
         border: none;
     }
-
     .contractHolder {
         margin-bottom: 100px;
     }
-
     .link-container {
         width: 100%;
         /* flex:1; */
@@ -718,7 +709,6 @@
         margin-bottom: 30px;
         margin-top: 60px;
     }
-
     #section-nests button.btn.action-btn {
         margin-top: 20px;
     }
@@ -863,15 +853,12 @@
         height: 5vw;
         width: 5vw;
     }
-
     .faqLeft, .faqRight {
         width: 100%;
     }
-
     #faq-content {
         display: inline-block;
     }
-
     .footer-privacy {
         font-size: 30px;
     }
@@ -1004,25 +991,21 @@
         flex-direction: column;
         justify-content: unset;
     }
-
     #needToKnow>.content {
         padding-left: 8%;
         padding-right: 8%;
     }
-
     #needToKnow {
         background-size: cover;
     }
-
     #needToKnow h2.headTwo {
         background: #212226;
         padding: 10px 20px;
     }
-
     .certik {
         display: none;
     }
-
+    
 
 
 
@@ -1089,7 +1072,7 @@
     .msg-left-content-container {
         justify-content: space-between;
     }
-
+    
     .msg-right {
         margin-top: 35px;
         margin-left: 0px;
@@ -1103,7 +1086,6 @@
         font-size: 25px;
         height: fit-content;
     }
-
     #section-app-nft {
         height: 1620px;
     }
@@ -1119,14 +1101,13 @@
         height: fit-content;
         width: 100%;
     }
-
     #section-nests {
         height: fit-content;
     }
 
     .nest-header {
         flex-direction: column;
-        padding: 30px 70px;
+        padding:30px 70px;
         height: fit-content;
         text-align: center;
 
@@ -1161,7 +1142,6 @@
         flex-direction: column;
         height: 100%;
     }
-
     .mobile-fee-list {
         flex: 1;
         font-size: 16px;
@@ -1182,27 +1162,21 @@
     .fs-40 {
         font-size: 29px !important;
     }
-
     .chart-text {
         padding: 0px 5%;
     }
-
     .token_chart {
         background-color: transparent;
     }
-
     .msg-right {
         max-width: 100%;
     }
-
     .tv-lightweight-charts {
         transform: scale(0.8);
     }
-
     .nest-list-even .pay-button, .mobile-fee-list, .pay-button.list {
         font-size: 14px;
     }
-
     #section-nests button.btn.action-btn {
         font-size: 21px;
     }
@@ -1214,15 +1188,12 @@
     #section-hero .title h1 {
         font-size: 40px;
     }
-
     .hero-left {
         width: 100%;
     }
-
     .tab-content .card-item-title {
         font-size: 5vw;
     }
-
     .tab-content .nftBtnNum {
         padding: 0 5px;
         border-radius: 5px;
@@ -1230,12 +1201,10 @@
         height: auto;
         font-size: 5vw;
     }
-
     .header .action-btn {
         padding-right: 8px;
         padding-left: 8px;
     }
-
     .token_chart .App {
         width: 100% !important;
     }
@@ -1247,19 +1216,15 @@
     .card-action p {
         font-size: 4.5vw;
     }
-
     #section-hero .title h1 {
         font-size: 7.5vw;
     }
-
     .hero-left .title-sub {
         font-size: 6vw;
     }
-
     .title-sub1 {
         margin-top: 10px;
     }
-
     #section-nft .action-btn.btn.fs-28.m-t-30.mx-auto, .needToBtn {
         font-size: 20px;
         text-transform: capitalize;
@@ -1267,76 +1232,59 @@
         min-width: auto !important;
         width: auto !important;
     }
-
     .headTwoAu {
         font-size: 9vw;
     }
-
     .card-img {
         width: auto;
     }
-
     .card {
         width: 100%;
     }
-
     .hero-left {
         width: 100%;
     }
-
     .card-action {
         width: 100%;
     }
-
     .badge-title {
-        height: auto;
+        height: auto;   
         font-size: 19px !important;
         line-height: 22px !important;
     }
-
     #chips-header {
         width: auto;
     }
-
     .nest-left {
         width: 100%;
     }
-
     .tab-header .fs-40 {
         font-size: 5vw !important;
     }
-
     .headTwoBl {
         font-size: 9vw;
     }
-
     .header a#launch_btn {
         font-size: 16px;
         padding-right: 8px;
         padding-left: 7px;
     }
-
     .headTwo {
         font-size: 7vw;
     }
-
     .mynode-list-content .claim-button.list {
         width: 80px !important;
     }
-
     .msg-left-content-container {
         display: block;
     }
-
     .msg-content-item {
         width: 100%;
         max-width: none;
     }
-
     .msg-content-item.mainStats {
         margin-bottom: 20px;
     }
-
     .tv-lightweight-charts {
         transform: scale(0.6);
         margin-left: -100px;
@@ -1350,4 +1298,4 @@
     #section-faq {
         background-attachment: initial;
     }
-}
+ }

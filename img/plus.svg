@@ -8,18 +8,18 @@
 			<path d="m26.5 52c-14.1 0-25.5-11.4-25.5-25.5c0-14.1 11.4-25.5 25.5-25.5c14.1 0 25.5 11.4 25.5 25.5c0 14.1-11.4 25.5-25.5 25.5z" />
 		</clipPath>
 		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1=".7" y1="26.5" x2="52.3" y2="26.5">
-			<stop offset="0" stop-color="#ffa286"  />
-			<stop offset="1" stop-color="#e74c06"  />
+			<stop offset="0" stop-color="#FFFFFF"  />
+			<stop offset="1" stop-color="#FFFFFF"  />
 		</linearGradient>
 		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="15.4" y1="26.5" x2="37.6" y2="26.5">
-			<stop offset="0" stop-color="#ffa286"  />
-			<stop offset="1" stop-color="#e74c06"  />
+			<stop offset="0" stop-color="#FFFFFF"  />
+			<stop offset="1" stop-color="#FFFFFF"  />
 		</linearGradient>
 	</defs>
 	<style>
 		tspan { white-space:pre }
 		.s0 { fill: url(#grd1) } 
-		.s1 { fill: #fefefe } 
+		.s1 { fill: #FFFFFF } 
 		.s2 { fill: url(#grd2) } 
 	</style>
 	<g id="Home (Desktop)" clip-path="url(#cp1)">
