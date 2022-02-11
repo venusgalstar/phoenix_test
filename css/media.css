@@ -686,8 +686,8 @@
         align-items: flex-start;
         border: none;
     }
-    .contractHolder {
-        margin-bottom: 100px;
+    .footer-main {
+        padding-top: 60px;
     }
     .link-container {
         width: 100%;
@@ -1189,11 +1189,17 @@
     .chips {
         width: 100%;
     }
+    .contractHolder {
+        background: #c89656;
+    }
+    .addMMbtn {
+        margin-right: 0;
+    }
 }
 
 /* =========================== all below 475px ========================= */
 
-@media (max-width: 475px) {
+@media (max-width: 480px) {
     #section-hero .title h1 {
         font-size: 40px;
     }
@@ -1217,11 +1223,20 @@
     .token_chart .App {
         width: 100% !important;
     }
+    .treasuryBox {
+        margin-bottom: 20px;
+    }
+    .onlyMobile {
+        display: flex !important;
+    }
+    .token_chart {
+        display: none !important;
+    }
 }
 
 /* =========================== all below 475px ========================= */
 
-@media (max-width: 475px) {
+@media (max-width: 480px) {
     .card-action p {
         font-size: 4.5vw;
     }

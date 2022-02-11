@@ -6,164 +6,7 @@ a {
     text-decoration: none;
 }
 
-/* ********************************** BOND PAGE BEGIN */
-/* ********************************** BOND PAGE BEGIN */
-/* ********************************** BOND PAGE BEGIN */
 
-#section-bond .token_chart {
-    min-height: 320px;
-    margin-top: -10px;
-    width: 100%;
-    background-color: #2f3136;
-    justify-content: center;
-}
-#section-bond .token_chart .flex.h-40.align-end.m-b-10.w-full {
-    min-height: 50px;
-}
-#section-bond .token_chart .c-w.fs-20.tokenName {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    background: #5a5c64;
-    padding-left: 5%;
-}
-#section-bond .token_chart .c-w.fs-20.tokenTitle {
-    padding-left: 5%;
-}
-#section-bond .bond_panel {
-    width: 600px;
-    background-color: #2f3136 !important;
-}
-
-#section-bond .pay-button {
-    width: 100% !important;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-#section-bond .pay-button:hover {
-    background: #202225;
-    border-color: #202225;
-    color: white !important;
-}
-#section-bond .bondRedeem {
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-#section-bond .bondRedeem button {
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-#section-bond .bondRedeem button:hover {
-    background: #202225;
-    border-color: #202225;
-}
-#section-bond .bondLeft .msg-content-item {
-    justify-content: flex-start !important;
-}
-#section-bond {
-    background-image: url(/img/bg1.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 2000px 1000px;
-}
-#section-bond>.content {
-    height: 1000px;
-    display: flex;
-    align-items: center;
-}
-#section-bond .mainStats .fs-22.c-w {
-    text-transform: uppercase;
-}
-#section-bond .fs-22 {
-    font-size: 28px;
-}
-#section-bond .bond-panel {
-    width: 500px
-}
-#section-bond>.content {
-    height: 810px;
-    width: 1150px;
-    display: flex;
-    align-items: center;
-}
-#section-bond .bond-input, #section-bond .bond-input:active, #section-bond .bond-input:focus {
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    border-radius: 0px;
-    text-align: center;
-    color: white;
-    box-shadow: none;
-}
-#section-bond .bondAmount {
-    text-align:center;
-}
-#section-bond input.form-control.bond-input {
-    background: #5a5c64;
-    border-bottom: none;
-    height: 100%;
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-.setting-panel {
-    display: flex;
-    flex-direction: row;
-}
-#section-bond .mainBuy {
-    line-height: 29px;
-}
-#section-bond .bondTitle {
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-#section-bond .bondTitle .fs-20 {
-    font-size: 26px;
-}
-#section-bond .infoHold {
-    margin-top: 5%;
-    letter-spacing: 3px;
-    text-align: center;
-}
-
-#section-bond .fiveDay {
-    background: #45474e;
-    margin-right: 5%;
-    padding: 6px;
-}
-#section-bond .eightHr {
-    background: #45474e;
-    padding: 6px;
-}
-.eightHr span, .fiveDay span {
-    color: #c89656;
-    font-weight: bold;
-}
-#section-bond .myBonded {
-    text-transform: uppercase;
-}
-span.smallCap {
-    text-transform: lowercase;
-}
-#section-bond .mainBuy button.btn.action-btn {
-    font-size: 26px;
-    font-weight: bold;
-    padding-left: 0;
-    padding-right: 0;
-}
-#section-bond .mainBuy button.btn.action-btn:hover {
-    background: #202225;
-    border-color: #202225;
-}
-#section-bond .bondLeft .msg-content-item.mainBuy, #section-bond .bondLeft .msg-content-item.mainStats {
-    justify-content: center !important;
-}
-
-
-/* ********************************** BOND PAGE END */
-/* ********************************** BOND PAGE END */
-/* ********************************** BOND PAGE END */
-/* ********************************** BOND PAGE END */
 
 :root {
     --primary: #11151f;
@@ -345,7 +188,7 @@ span.smallCap {
 
 #section-msg {
     background-image: url(/img/bg1.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position: top;
     background-size: 2000px 1000px;
 }
@@ -355,8 +198,19 @@ span.smallCap {
 #section-msg .fs-22 {
     font-size: 28px;
 }
+.mainBuy, .mainBuy button {
+    text-transform: uppercase;
+}
+.pangBtn {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.tradrjBtn {
+    margin-bottom: 5px;
+}
 #section-msg .mainBuy button {
-    font-size: 26px;
+    font-size: 21px;
+    letter-spacing: 3px;
     font-weight: bold;
     padding-left: 0;
     padding-right: 0;
@@ -415,27 +269,11 @@ span.smallCap {
 }
 
 .token_chart {
-    height: 335px;
+    height: 370px;
     width: 100%;
     background-color: #2f3136;
 }
-.token_chart .flex.h-40.align-end.m-b-10.w-full {
-    min-height: 50px;
-}
-.token_chart .c-w.fs-20.tokenName {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    background: #5a5c64;
-    padding-left: 5%;
-}
-.token_chart .c-w.fs-20.tokenTitle {
-    padding-left: 5%;
-}
-.bond_panel {
-    width: 600px;
-    background-color: #2f3136 !important;
-}
+
 
 #section-nests {
     height: 900px;
@@ -716,7 +554,7 @@ img.phoenixHome {
     display: flex !important;
 }
 
-.mobile-show {
+.mobile-show, .onlyMobile {
     display: none !important;
 }
 
@@ -871,6 +709,7 @@ p.needPar {
 #section-app-nft {
     background-color: black;
     height: auto;
+    padding-bottom: 60px;
 }
 #section-app-nft .card {
     width: 100%;
@@ -1224,6 +1063,7 @@ span.faqQw {
     align-items: center;
     border-bottom: 1px solid #282828;
     flex-wrap: wrap;
+    clear:both;
 }
 
 .footer-link {
@@ -1252,6 +1092,20 @@ footer .c-gray {
 footer .c-gray:hover {
     color:#c89656;
 }
+.addMMbtn {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    background: #202225;
+    text-transform: uppercase;
+    height: auto;
+}
+.addMMbtn img {
+    max-width: 35px;
+    margin-left: 10px;
+}
 .contractHolder, .contractHolder a {
     color: white;
     font-size: 23px;
@@ -1264,10 +1118,11 @@ footer .c-gray:hover {
 }
 .contractHolder a {
     background: #c89656;
+    border-radius: 20px;
 }
 
 .contractHolder a:hover {
-    background: #323538;
+    background: #202225;
 }
 
 .cookie_btn {
@@ -1428,21 +1283,7 @@ footer .c-gray:hover {
 .pay-button:hover i {
     color: #fff
 }
-.bondRedeem {
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-.bondRedeem button {
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-.bondRedeem button:hover {
-    background: #202225;
-    border-color: #202225;
-}
-.bondLeft .msg-content-item {
-    justify-content: flex-start !important;
-}
+
 .nest-list-even .pay-button {
     background-color: #dda966;
 }
@@ -1578,6 +1419,7 @@ footer .c-gray:hover {
 .card-item-info {
     color: #fff;
     font-size: 20px;
+    text-align: left;
 }
 
 
@@ -1961,3 +1803,165 @@ span.copy-right {
 .mobile-visible-false {
     visibility:visible;
 }
+
+
+
+
+
+/* ********************************** BOND PAGE BEGIN */
+/* ********************************** BOND PAGE BEGIN */
+/* ********************************** BOND PAGE BEGIN */
+
+#section-bond .token_chart {
+    min-height: 320px;
+    margin-top: -10px;
+    width: 100%;
+    background-color: #2f3136;
+    justify-content: center;
+}
+#section-bond .token_chart .flex.h-40.align-end.m-b-10.w-full {
+    min-height: 50px;
+}
+#section-bond .token_chart .c-w.fs-20.tokenName {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #5a5c64;
+    padding-left: 5%;
+}
+#section-bond .token_chart .c-w.fs-20.tokenTitle {
+    padding-left: 5%;
+}
+#section-bond .bond_panel {
+    width: 600px;
+    background-color: #2f3136 !important;
+}
+
+#section-bond .pay-button {
+    width: 100% !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#section-bond .pay-button:hover {
+    background: #202225;
+    border-color: #202225;
+    color: white !important;
+}
+#section-bond .bondRedeem {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#section-bond .bondRedeem button {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#section-bond .bondRedeem button:hover {
+    background: #202225;
+    border-color: #202225;
+}
+#section-bond .bondLeft .msg-content-item {
+    justify-content: flex-start !important;
+}
+#section-bond {
+    background-image: url(/img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 2000px 1000px;
+}
+#section-bond>.content {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+}
+#section-bond .mainStats .fs-22.c-w {
+    text-transform: uppercase;
+}
+#section-bond .fs-22 {
+    font-size: 28px;
+}
+#section-bond .bond-panel {
+    width: 500px
+}
+#section-bond>.content {
+    height: 810px;
+    width: 1150px;
+    display: flex;
+    align-items: center;
+}
+#section-bond .bond-input, #section-bond .bond-input:active, #section-bond .bond-input:focus {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0px;
+    text-align: center;
+    color: white;
+    box-shadow: none;
+}
+#section-bond .bondAmount {
+    text-align:center;
+}
+#section-bond input.form-control.bond-input {
+    background: #5a5c64;
+    border-bottom: none;
+    height: 100%;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.setting-panel {
+    display: flex;
+    flex-direction: row;
+}
+#section-bond .mainBuy {
+    line-height: 29px;
+}
+#section-bond .bondTitle {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#section-bond .bondTitle .fs-20 {
+    font-size: 26px;
+}
+#section-bond .infoHold {
+    margin-top: 5%;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#section-bond .fiveDay {
+    background: #45474e;
+    margin-right: 5%;
+    padding: 6px;
+}
+#section-bond .eightHr {
+    background: #45474e;
+    padding: 6px;
+}
+.eightHr span, .fiveDay span {
+    color: #c89656;
+    font-weight: bold;
+}
+#section-bond .myBonded {
+    text-transform: uppercase;
+}
+span.smallCap {
+    text-transform: lowercase;
+}
+#section-bond .mainBuy button.btn.action-btn {
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 0;
+    padding-right: 0;
+}
+#section-bond .mainBuy button.btn.action-btn:hover {
+    background: #202225;
+    border-color: #202225;
+}
+#section-bond .bondLeft .msg-content-item.mainBuy, #section-bond .bondLeft .msg-content-item.mainStats {
+    justify-content: center !important;
+}
+
+/* ********************************** BOND PAGE END */
+/* ********************************** BOND PAGE END */
+/* ********************************** BOND PAGE END */
+/* ********************************** BOND PAGE END */
