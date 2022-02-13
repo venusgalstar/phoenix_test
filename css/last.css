@@ -7,7 +7,6 @@ a {
 }
 
 
-
 :root {
     --primary: #11151f;
     --third: #0d111a;
@@ -95,7 +94,7 @@ a {
     background-color: #c89656;
     color: white;
     border-color: #c89656;
-    border-radius: 20px;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1118,7 +1117,7 @@ footer .c-gray:hover {
 }
 .contractHolder a {
     background: #c89656;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 .contractHolder a:hover {
@@ -1607,6 +1606,51 @@ span.copy-right {
     height: 500px;
     width: 100%;
 }
+/* *** nest scrollbar - setting in Nodes.js using CustomScrollbars */
+.track-vertical {
+    top: 2px;
+    bottom: 2px;
+    right: 2px;
+    border-radius: 3px;
+    width: 16px !important;
+    background: rgba(255, 255, 255, 0.111);
+  }
+  .track-vertical .thumb-vertical {
+    position: relative;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: inherit;
+    background-color: rgb(200 150 86 / 65%);
+  }
+  .track-horizontal {
+    position: absolute;
+    height: 6px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    border-radius: 3px;
+  }
+  .track-horizontal .thumb-horizontal {
+    position: relative;
+    display: block;
+    height: 100%;
+    cursor: pointer;
+    border-radius: inherit;
+    background-color: rgb(200 150 86 / 37%);
+  }
+  .view {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: scroll;
+    margin-right: -15px;
+    margin-bottom: -17px !important;
+  }
+
+
 
 
 .cdmEaM {
