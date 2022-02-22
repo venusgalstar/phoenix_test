@@ -387,12 +387,20 @@ a {
   }
 
 .tab-content {
-    height: 600px;
+    height: 645px;
     background-color: #949596;
     padding: 20px;
 }
-
-
+.tab-content .card-item-info .dashbSmall {
+    text-align: center;
+    margin-top: 20px;
+}
+.countdownHolder {
+    text-align: right;
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+}
 #section-hero {
     height: 740px;
     background-image: url(/img/bg1.jpg);
@@ -1301,6 +1309,14 @@ footer .c-gray:hover {
     display: block;
     max-width: 200px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+span.myNftNmb {
+    background: #202225;
+    padding: 0px 12px;
+    border-radius: 50%;
 }
 .nftsInTab .card-img {
     width: 100% !important;
@@ -1847,6 +1863,106 @@ span.copy-right {
 .mobile-visible-false {
     visibility:visible;
 }
+
+
+/* *********** TEAM SECTION *********** */
+/* *********** TEAM SECTION *********** */
+/* *********** TEAM SECTION *********** */
+
+#section-team {
+display:none !important;
+background-image: url(/img/marble-bg.jpg);
+background-position: center;
+background-size: cover;
+padding-top: 108px;
+padding-bottom: 98px;
+}
+.team-container {
+max-width: 1150px;
+width: 100%;
+margin: 0 auto;
+}
+h2.teamTitle {
+text-align: center;
+font-size: 66px;
+color: #202225;
+font-weight: 900;
+}
+.team-container .team {
+width: auto;
+display: flex;
+justify-content: center;
+text-align: center;
+flex-wrap: wrap;
+}
+
+.team-container .team .team_member {
+width: 325px;
+margin: 10px;
+/*
+background: #fff;
+border-radius: 6px;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+*/
+padding: 25px;
+}
+.team-image {
+position: relative;
+min-height: 200px;
+padding-top: 50px;
+margin-bottom: 80px;
+}
+.team-container .team .team_member img {
+width: 180px;
+z-index: 9;
+position: relative;
+margin-bottom: -205px;
+}
+.team-container .team .team_member img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+  }
+  
+  .team-container .team .team_member img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+  }
+
+.team-container .team .team_member h3 {
+background: #c89656;
+border-radius: 50px;
+padding: 5px;
+/* width: 70%; */
+letter-spacing: 1px;
+margin: 0 auto;
+color: white;
+font-size: 34px;
+}
+
+.btn_grp {
+    position: relative;
+}
+.btn_grp a {
+    color: black;
+}
+.btn_grp a:hover {
+    color: #c89656;
+}
+.team_member .fa-linkedin {
+    font-size: 40px;
+    position: absolute;
+    right: 0;
+    top: -50px;
+}
+.team-container .team .team_member p {
+margin: 15px 0;
+text-align: left;
+}
+
+
+
+
 
 
 

@@ -1129,7 +1129,7 @@
     }
 
     .tab-content {
-        height: 770px;
+        height: 821px;
     }
 
     .mynode-list-content {
@@ -1194,6 +1194,13 @@
     }
     .addMMbtn {
         margin-right: 0;
+    }
+    .countdownHolder {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .node-title-header.mobile-flex {
+        justify-content: center;
     }
 }
 
