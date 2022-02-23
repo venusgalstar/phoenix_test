@@ -400,6 +400,20 @@ a {
     font-size: 22px;
     color: white;
     margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+span.cntTimer {
+    background: #202225;
+    padding: 2px 10px;
+    font-weight: bold;
+    min-width: 150px;
+    display: inline-block;
+    text-align: center;
+}
+span.cntTxt {
+    background: #35373a;
+    padding: 2px 10px;
+    display: inline-block;
 }
 #section-hero {
     height: 740px;
