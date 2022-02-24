@@ -1145,6 +1145,10 @@
         flex: 1;
         font-size: 16px;
     }
+    .discHolders {
+        border-radius: 0;
+        font-size: 26px;
+    }
 }
 
 /* =========================== all below 865px ========================= */
@@ -1201,6 +1205,9 @@
     }
     .node-title-header.mobile-flex {
         justify-content: center;
+    }
+    #section-hero {
+        background-image: url(/img/mobile-bg1-500.jpg);
     }
 }
 

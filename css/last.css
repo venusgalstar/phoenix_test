@@ -1878,7 +1878,38 @@ span.copy-right {
     visibility:visible;
 }
 
-
+/* **** Static page such as Disclaimer **** */
+.pheonixPage {
+    background-image: url(/img/marble-bg.jpg);
+    background-position: top;
+    background-repeat: repeat-y;
+    padding-top: 108px;
+    padding-bottom: 98px;
+    margin-top: 0 !important;
+    color: #202225 !important;
+}
+.disclaim-title h1 {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 1.1;
+}
+.disclaim-content {
+    font-size: 2em;
+    line-height: 1.2em;
+    background: #ffffff6e;
+    padding: 3%;
+    max-width: 1200px;
+    margin-top: 30px;
+}
+.disclaim-content p {
+    margin-bottom: 25px;
+}
+.discHolders {
+    background: #c89656;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 2em;
+}
 /* *********** TEAM SECTION *********** */
 /* *********** TEAM SECTION *********** */
 /* *********** TEAM SECTION *********** */
