@@ -371,7 +371,7 @@ a {
     opacity: 1;
     cursor: pointer;
   }
-  
+
   /* Tooltip text */
   .tooltip .tooltiptext {
     width: 239px;
@@ -380,7 +380,7 @@ a {
     margin-left: -100px !important;
     font-size: 18px;
 }
-  
+
   /* Show the tooltip text when you mouse over the tooltip container */
   .tooltip:hover .tooltiptext {
     visibility: visible;
@@ -1251,7 +1251,6 @@ footer .c-gray:hover {
     justify-content: center;
     cursor: pointer;
     color: #e2e8f0;
-
 }
 
 .claim-button.btn-outline {

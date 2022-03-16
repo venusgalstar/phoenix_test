@@ -734,11 +734,6 @@
     }
 
 
-    #create-nest {
-        margin-top: 10px;
-        font-size: 20px;
-    }
-
     .copy-right {
         font-size: 2vw;
     }
@@ -1102,18 +1097,6 @@
     }
     #section-nests {
         height: fit-content;
-    }
-
-    .nest-header {
-        flex-direction: column;
-        padding:30px 70px;
-        height: fit-content;
-        text-align: center;
-
-    }
-
-    .nest-header-title {
-        font-size: 30px;
     }
 
     .tab-item {
